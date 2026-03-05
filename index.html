@@ -6,15 +6,13 @@
 </head>
 <style>
 body
-{
-    
+{   
  background-image:
  url("bg1.jpg");
  background-repeat:no-repeat;
  background-size:cover;
  background-position:left;
 }
-
 .h12
 {
 height: 50px;
@@ -35,13 +33,11 @@ h3.size
 .menu {
 display: flex;
 justify-content: space-around;
-flex-wrap: wrap;
+overflow-x: scroll;
 margin-bottom: 0px;
 align-items: flex-start;
 margin-top: 20px;
-
 }
-
 .items 
 {
  background-color: rgb(255, 255, 255);
@@ -52,9 +48,6 @@ margin-top: 20px;
  box-shadow: 20px;
  box-shadow: 5px 5px 5px rgb(94, 100, 101);
   padding-bottom: 30px;
-
- 
- 
  height: 200px;
 }
 h5.font
@@ -100,12 +93,11 @@ h5.font
 .navbar li a:hover{
     background-color: white;
 }
+
 .v1{
     width: 660px;
-   display: block;
-   margin: auto;
     border-radius: 20px;
-    
+    margin: 50px;
    
 }
 .b:hover{
@@ -117,27 +109,36 @@ h5.font
 .a1{
   
     background-color: rgba(0,0,0,0.5); 
+    display: flex;
+justify-content: space-around;
+margin-bottom: 0px;
+align-items: flex-start;
+margin-top: 20px;
+overflow-x:scroll;
+
     
 }
 .a2{
     background-color:rgba(0, 0, 0, 0.5); 
+
 }
-
-
 .f1{
     font-family:  "Lucida Console", "Courier New", monospace;
     color:rgb(255, 187, 104)
 }
 .menu1 {
 display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
+justify-content:space-between;
 margin-bottom: 0px;
 align-items: flex-start;
 margin-top: 20px;
+overflow-x:scroll;
 
 }
-
+.c{
+    width: 10px;
+    height: 10px;
+}
 </style>
 <body>
    
@@ -148,7 +149,7 @@ margin-top: 20px;
 <input  type="search" placeholder="Search your cravings">
 </form>
 </div>
-<div class="a1"> 
+
 <header>
     <nav class="navbar">
     
@@ -162,8 +163,14 @@ margin-top: 20px;
                 <li><a href="#">help</a></li>
             </ul>
             </nav>
-            </header>     
+            </header>    
+            <div class="a1"> 
+
 <video class="v1"src="vi.mp4" autoplay muted loop>pizza</video>
+
+<img class="v1" src="a.jpg" alt="p" width="600px;" height="400px;">
+<video class="v1"src="q1.mp4" autoplay muted loop>pizza</video>
+</div>
  </div>
 </div>
 <div class="a2">
