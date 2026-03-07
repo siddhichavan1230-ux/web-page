@@ -1,24 +1,28 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Domino's</title>
 </head>
 <style>
-body
+    body{
+        background-color:rgba(10, 39, 102, 0.525); 
+    }
+.hero
 {   
  background-image:
  url("bg1.jpg");
  background-repeat:no-repeat;
  background-size:cover;
  background-position:left;
+ height: 305vb;
+ width: auto;
+ margin-top: 0px;
 }
 .h12
 {
 height: 50px;
 width: 25 px;
 margin: 0 100px ;
-margin-top: 50px;
 border: solid rgb(251, 248, 248);
 text-shadow:  2px 2px 4px #000000;;
 font-size: 50px;
@@ -110,13 +114,11 @@ h5.font
   
     background-color: rgba(0,0,0,0.5); 
     display: flex;
-justify-content: space-around;
-margin-bottom: 0px;
-align-items: flex-start;
-margin-top: 20px;
-overflow-x:scroll;
-
-    
+    justify-content: space-around;
+    margin-bottom: 0px;
+    align-items: flex-start;
+    margin-top: 20px;
+    overflow-x:scroll; 
 }
 .a2{
     background-color:rgba(0, 0, 0, 0.5); 
@@ -136,12 +138,26 @@ overflow-x:scroll;
 
 }
 .c{
-    width: 10px;
-    height: 10px;
+ align-content: center;
+}
+.c1{
+    background-color: #76330096;
+    margin-top: 50px;
+    padding: 20px;
+}
+.f2{
+     font-family:  Helvetica;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.413);
 }
 </style>
 <body>
-   
+ <div class="hero">
 <h1 class="h12" style="color:white;"><strong><center>Domino's</strong></h1>
 <h4 style="color:rgb(255, 255, 255);"><center><i> Fresh. Fast. Delicious.</i></h4>
     <div class="search">
@@ -154,8 +170,7 @@ overflow-x:scroll;
     <nav class="navbar">
     
     <a href="Login.html">
-        
-        </a>
+     </a>
             <ul>
                 <li><a href="Login.html">Login with as!!</a></li>
                 <li><a href="#">contact us</a></li>
@@ -171,8 +186,8 @@ overflow-x:scroll;
 <img class="v1" src="a.jpg" alt="p" width="600px;" height="400px;">
 <video class="v1"src="q1.mp4" autoplay muted loop>pizza</video>
 </div>
- </div>
-</div>
+ 
+
 <div class="a2">
 <h3 class="size"><center>Our special Menue!!</h3>
 <h2 class="f1"><center>Our popular menue!!</h2>
@@ -185,25 +200,19 @@ overflow-x:scroll;
    <div class="items">
     <img class="img"src="p.jpg" alt="pizza" width="250px;" height="150px;">
     <h5 class="font"><b>Veggie Delight<br><button class="b">Order Now!</button></b></h5>
-
 </div>
    <div class="items">
     <img  class="img"src="p1.jpg" alt="pizza" width="250px;" height="150px;">
         <h5 class="font"><b>Pepperoni Pizza<br><button class="b">Order Now!</button></b></h5>
-
    </div>
    <div class="items">
     <img class="img"src="ph.jpg" alt="pizza" width="250px" height="150px">
     <h5 class="font"><b>Pizza<br><button class="b">Order now!</button></b></h5>
    </div>
     </div>
-   
     <h2 class="f1"><center>Our Top selling menue!!</center></h2>
      <div class="menu1">
-  
-  
-    <div class="items" >
-       
+    <div class="items" >  
     <img class="img"src="pq.jpg" alt="pizza" width="250px" height="150px">
     <h5 class="font"><b>Pizza<br><button class="b">Order now!</button></b></h5>
    </div>
@@ -221,11 +230,35 @@ overflow-x:scroll;
     </div>
    </div>
 </div>
-   
+</div>
+   <div class="c1">
+    <div class="c">
+        <h1 style="color: rgb(255, 255, 255);"><center><B>ABOUT US!</B></center></h1>
+ <center><img src="chef.jpg" alt="chef" width="300px;" height="400px;">
+    </div>
+    <b>
+    <p>Our chef <br>brings passion and creativity to every dish prepared in the kitchen.
+With years of culinary experience, they focus on quality and taste.
+Every meal is crafted using fresh ingredients and careful techniques.
+The goal is to create a memorable dining experience for every guest.</p>
+   </div>
+</div>
+</div>
 
+    <footer>
+        <div>
+    <h3>About Us</h3>
+    <h6>We serve delicious food with quality ingredients and great taste.</h6>
+</div>
 
-
+<search>
+    <h3>Contact</h3>
+    <h6>Nashik, Maharashtra</h6>
+    <h6>Email: restaurant@email.com</h6>
+</section>
+<div>
+   <center><h5>© 2026 Restaurant Name. All Rights Reserved.</h5>
+</div>
+</footer>
 </body>
-
-
 </html>
