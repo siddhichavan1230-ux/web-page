@@ -4,6 +4,10 @@
 <title>Domino's</title>
 </head>
 <style>
+    *{
+        margin: 0;
+        padding:0;
+    }
     body{
         background-color:rgba(10, 39, 102, 0.525); 
     }
@@ -14,7 +18,7 @@
  background-repeat:no-repeat;
  background-size:cover;
  background-position:left;
- height: 305vb;
+ min-height: 150vh;  
  width: auto;
  margin-top: 0px;
 }
@@ -139,14 +143,17 @@ overflow-x:scroll;
 }
 .c{
  align-content: center;
+ text-align: center;
 }
 .c1{
     background-color: #76330096;
-    margin-top: 50px;
+   
     padding: 20px;
+    
 }
 .f2{
      font-family:  Helvetica;
+     text-align: center;
 }
 p{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -155,8 +162,16 @@ p{
 footer{
     background-color: rgba(0, 0, 0, 0.413);
 }
+@media(max-width:768px){
+.bg1{
+    width:95vh;
+}
+
+}
+
 </style>
 <body>
+    
  <div class="hero">
 <h1 class="h12" style="color:white;"><strong><center>Domino's</strong></h1>
 <h4 style="color:rgb(255, 255, 255);"><center><i> Fresh. Fast. Delicious.</i></h4>
@@ -231,6 +246,7 @@ footer{
    </div>
 </div>
 </div>
+</div>
    <div class="c1">
     <div class="c">
         <h1 style="color: rgb(255, 255, 255);"><center><B>ABOUT US!</B></center></h1>
@@ -243,9 +259,10 @@ Every meal is crafted using fresh ingredients and careful techniques.
 The goal is to create a memorable dining experience for every guest.</p>
    </div>
 </div>
-</div>
+
 
     <footer>
+        
         <div>
     <h3>About Us</h3>
     <h6>We serve delicious food with quality ingredients and great taste.</h6>
@@ -257,6 +274,7 @@ The goal is to create a memorable dining experience for every guest.</p>
     <h6>Email: restaurant@email.com</h6>
 </section>
 <div>
+
    <center><h5>© 2026 Restaurant Name. All Rights Reserved.</h5>
 </div>
 </footer>
