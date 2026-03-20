@@ -1,287 +1,329 @@
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Domino's</title>
+    <title>Pizza's</title>
 </head>
 <style>
-    *{
+    * {
         margin: 0;
-        padding:0;
+        padding: 0;
     }
-    body{
-        background-color:rgba(10, 39, 102, 0.525); 
+
+    body {
+        background-color: rgba(10, 39, 102, 0.525);
     }
-.hero
-{   
- background-image:
- url("bg1.jpg");
- background-repeat:no-repeat;
- background-size:cover;
- background-position:left;
- min-height: 150vh;  
- width: auto;
- margin-top: 0px;
-}
-.h12
-{
-height: 50px;
-width: 25 px;
-margin: 0 100px ;
-border: solid rgb(251, 248, 248);
-text-shadow:  2px 2px 4px #000000;;
-font-size: 50px;
-}
-h3.size
-{
- font-family: papyrus;
-  text-shadow: 2px 2px 4px #faf2f2;
-  font-size: 35px;
 
-}
-.menu {
-display: flex;
-justify-content: space-around;
-overflow-x: scroll;
-margin-bottom: 0px;
-align-items: flex-start;
-margin-top: 20px;
-}
-.items 
-{
- background-color: rgb(255, 255, 255);
- border: 3px black solid;
- margin: 15px;
- margin-bottom: 20px;
- border-radius:20px ;
- box-shadow: 20px;
- box-shadow: 5px 5px 5px rgb(94, 100, 101);
-  padding-bottom: 30px;
- height: 200px;
-}
-h5.font
-{
-  font-family: papyrus;
-  text-align: center;
+    .hero {
+        background-image:
+            url("bg1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: left;
+        min-height: 150vh;
+        width: auto;
+        margin-top: 0px;
+    }
 
-}
-.search
-{
-    text-align: center;
-    margin: 20px;
+    .h12 {
+        height: 50px;
+        width: 25 px;
+        margin: 0 100px;
+        border: solid rgb(251, 248, 248);
+        text-shadow: 2px 2px 4px #000000;
+        ;
+        font-size: 50px;
+    }
+
+    h3.size {
+        font-family: papyrus;
+        text-shadow: 2px 2px 4px #faf2f2;
+        font-size: 35px;
+
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        overflow-x: scroll;
+        margin-bottom: 0px;
+        align-items: flex-start;
+        margin-top: 20px;
+    }
+
+    .items {
+        background-color: rgb(255, 255, 255);
+        border: 3px black solid;
+        margin: 15px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        box-shadow: 20px;
+        box-shadow: 5px 5px 5px rgb(94, 100, 101);
+        padding-bottom: 30px;
+        height: 200px;
+    }
+
+    h5.font {
+        font-family: papyrus;
+        text-align: center;
+
+    }
+
+    .search {
+        text-align: center;
+        margin: 20px;
+
+    }
+
+    .img {
+        border-radius: 20px;
+        border: solid 3px rgb(94, 65, 3);
+        margin-bottom: 0px;
+    }
+
+    .navbar {
+        background-color: rgb(156, 87, 87);
+        border-radius: 10px;
+
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+
+    }
+
+    .navbar li a {
+        justify-content: space-between;
+        padding-bottom: 0;
+        margin: 38px;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-family: Sans-Serif;
+        padding-left: 50px;
+        padding-right: 50px;
+
+    }
+
+
+    .v1 {
+        width: 660px;
+        border-radius: 20px;
+        margin: 50px;
+
+    }
+
+    .b:hover {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .b {
+        background-color: rgb(173, 15, 15);
+    }
+
+    .a1 {
+
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 0px;
+        align-items: flex-start;
+        margin-top: 20px;
+        overflow-x: scroll;
+    }
+
+    .a2 {
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .f1 {
+        font-family: "Lucida Console", "Courier New", monospace;
+        color: rgb(255, 187, 104)
+    }
+
+    .menu1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        align-items: flex-start;
+        margin-top: 20px;
+        overflow-x: scroll;
+    }
+
+    .c {
+        align-content: center;
+        text-align: center;
+    }
+
+    .c1 {
+        background-color: #76330096;
+
+        padding: 20px;
+
+    }
+
+    .f2 {
+        font-family: Helvetica;
+        text-align: center;
+    }
+
+    p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+    footer {
+        background-color: rgba(0, 0, 0, 0.413);
+    }
+
+    @media(max-width:768px) {
+        .bg1 {
+            width: 95vh;
+        }
+
+        .navbar {
+
+            padding: 0px;
+
+        }
+
+        .v1 {
+            width: 300px;
+            height: 735px;
+        }
+      
+
+    }
     
-}
-.img {
-    border-radius: 20px;
-    border: solid 3px rgb(94, 65, 3);
-    margin-bottom: 0px;
-}
-.navbar
-{
-    background-color: rgb(156, 87, 87);
-    border-radius: 10px;
-   
-}
-.navbar ul{
-    overflow: auto;
-}
-.navbar li{
-   float: left;
-   list-style: none;
-
-}
-.navbar li a{
-    padding: 38px;
-    padding-bottom: 0;
-    margin: 38px;
-    text-decoration: none;
-    color:black;
-    font-size: 17px;
-    font-family: Sans-Serif;
-
-}
-
-
-.v1{
-    width: 660px;
-    border-radius: 20px;
-    margin: 50px;
-   
-}
-.b:hover{
-    background-color: rgb(255, 255, 255);
-}
-.b{
-    background-color: rgb(173, 15, 15);
-}
-.a1{
-  
-    background-color: rgba(0,0,0,0.5); 
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 0px;
-    align-items: flex-start;
-    margin-top: 20px;
-    overflow-x:scroll; 
-}
-.a2{
-    background-color:rgba(0, 0, 0, 0.5); 
-
-}
-.f1{
-    font-family:  "Lucida Console", "Courier New", monospace;
-    color:rgb(255, 187, 104)
-}
-.menu1 {
-display: flex;
-justify-content:space-between;
-margin-bottom: 0px;
-align-items: flex-start;
-margin-top: 20px;
-overflow-x:scroll;
-
-}
-.c{
- align-content: center;
- text-align: center;
-}
-.c1{
-    background-color: #76330096;
-   
-    padding: 20px;
-    
-}
-.f2{
-     font-family:  Helvetica;
-     text-align: center;
-}
-p{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-}
-footer{
-    background-color: rgba(0, 0, 0, 0.413);
-}
-@media(max-width:768px){
-.bg1{
-    width:95vh;
-}
-.navbar
-{
-  
-  padding: 0px;
-   
-}
-
-}
-
 </style>
+
 <body>
-    
- <div class="hero">
-<h1 class="h12" style="color:white;"><strong><center>Domino's</strong></h1>
-<h4 style="color:rgb(255, 255, 255);"><center><i> Fresh. Fast. Delicious.</i></h4>
-    <div class="search">
-<form>
-<input  type="search" placeholder="Search your cravings">
-</form>
-</div>
 
-<header>
-    <nav class="navbar">
-    
-    <a href="Login.html">
-     </a>
-            <ul>
-                <li><a href="Login.html">Login with as!!</a></li>
-                <li><a href="#">contact us</a></li>
-                <li><a href="#">about us</a></li>
-                <li><a href="#">help</a></li>
-            </ul>
+    <div class="hero">
+        <h1 class="h12" style="color:white;"><strong>
+                <center>Pizza's
+            </strong></h1>
+        <h4 style="color:rgb(255, 255, 255);">
+            <center><i> Fresh. Fast. Delicious.</i>
+        </h4>
+        <div class="search">
+            <form>
+                <input type="search" placeholder="Search your cravings">
+            </form>
+        </div>
+
+        <header>
+            <nav class="navbar">
+
+                <a href="Login.html">
+                </a>
+                <ul>
+                    <li><a href="Login.html">Login with as!!</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">help</a></li>
+                </ul>
             </nav>
-            </header>    
-            <div class="a1"> 
+        </header>
+        <div class="a1">
 
-<video class="v1"src="vi.mp4" autoplay muted loop>pizza</video>
+            <video class="v1" src="vi.mp4" autoplay muted loop>pizza</video>
 
-<img class="v1" src="a.jpg" alt="p" width="600px;" height="400px;">
-<video class="v1"src="q1.mp4" autoplay muted loop>pizza</video>
-</div>
- 
+            <img class="v1" src="a.jpg" alt="p" width="600px;" height="400px;">
+            <video class="v1" src="q1.mp4" autoplay muted loop>pizza</video>
+        </div>
 
-<div class="a2">
-<h3 class="size"><center>Our special Menue!!</h3>
-<h2 class="f1"><center>Our popular menue!!</h2>
-<div class="menu">
-    <div class="items">
-<img class="img"src="pizza2.jpg" alt="pizza" width="250px;" height="150px;">
-<h5 class="font"><b>Classic Cheese Pizza <br><button class="b">Order Now!</button>
-</b></h5>
-</div>
-   <div class="items">
-    <img class="img"src="p.jpg" alt="pizza" width="250px;" height="150px;">
-    <h5 class="font"><b>Veggie Delight<br><button class="b">Order Now!</button></b></h5>
-</div>
-   <div class="items">
-    <img  class="img"src="p1.jpg" alt="pizza" width="250px;" height="150px;">
-        <h5 class="font"><b>Pepperoni Pizza<br><button class="b">Order Now!</button></b></h5>
-   </div>
-   <div class="items">
-    <img class="img"src="ph.jpg" alt="pizza" width="250px" height="150px">
-    <h5 class="font"><b>Pizza<br><button class="b">Order now!</button></b></h5>
-   </div>
+
+        <div class="a2">
+            <h3 class="size">
+                <center>Our special Menue!!
+            </h3>
+            <h2 class="f1">
+                <center>Our popular menue!!
+            </h2>
+            <div class="menu">
+                <div class="items">
+                    <img class="img" src="pizza2.jpg" alt="pizza" width="250px;" height="150px;">
+                    <h5 class="font"><b>Classic Cheese Pizza <br><button class="b">Order Now!</button>
+                        </b></h5>
+                </div>
+                <div class="items">
+                    <img class="img" src="p.jpg" alt="pizza" width="250px;" height="150px;">
+                    <h5 class="font"><b>Veggie Delight<br><button class="b">Order Now!</button></b></h5>
+                </div>
+                <div class="items">
+                    <img class="img" src="p1.jpg" alt="pizza" width="250px;" height="150px;">
+                    <h5 class="font"><b>Pepperoni Pizza<br><button class="b">Order Now!</button></b></h5>
+                </div>
+                <div class="items">
+                    <img class="img" src="ph.jpg" alt="pizza" width="250px" height="150px">
+                    <h5 class="font"><b>Spicy Treat<br><button class="b">Order now!</button></b></h5>
+                </div>
+            </div>
+            <h2 class="f1">
+                <center>Our Top selling menue!!</center>
+            </h2>
+            <div class="menu1">
+                <div class="items">
+                    <img class="img" src="pq.jpg" alt="pizza" width="250px" height="150px">
+                    <h5 class="font"><b>Veggie Supreme<br><button class="b">Order now!</button></b></h5>
+                </div>
+                <div class="items">
+                    <img class="img" src="z.jpg" alt="pizza" width="250px" height="150px">
+                    <h5 class="font"><b>Tandoori Twist<br><button class="b">Order now!</button></b></h5>
+                </div>
+                <div class="items">
+                    <img class="img" src="z1.jpg" alt="pizza" width="250px" height="150px">
+                    <h5 class="font"><b>Smoky BBQ Delight<br><button class="b">Order now!</button></b></h5>
+                </div>
+                <div class="items">
+                    <img class="img" src="z2.jpg" alt="pizza" width="250px" height="150px">
+                    <h5 class="font"><b>Double Cheese Melt<br><button class="b">Order now!</button></b></h5>
+                </div>
+            </div>
+        </div>
     </div>
-    <h2 class="f1"><center>Our Top selling menue!!</center></h2>
-     <div class="menu1">
-    <div class="items" >  
-    <img class="img"src="pq.jpg" alt="pizza" width="250px" height="150px">
-    <h5 class="font"><b>Pizza<br><button class="b">Order now!</button></b></h5>
-   </div>
-    <div class="items">
-    <img class="img"src="z.jpg" alt="pizza" width="250px" height="150px">
-    <h5 class="font"><b>Pizza<br><button class="b">Order now!</button></b></h5>
-   </div>
-    <div class="items">
-    <img class="img"src="z1.jpg" alt="pizza" width="250px" height="150px">
-    <h5 class="font"><b>Pizza<br><button class="b">Order now!</button></b></h5>
-   </div>
-    <div class="items">
-    <img class="img"src="z2.jpg" alt="pizza" width="250px" height="150px">
-    <h5 class="font"><b>Pizza<br><button class="b">Order now!</button></b></h5>
     </div>
-   </div>
-</div>
-</div>
-</div>
-   <div class="c1">
-    <div class="c">
-        <h1 style="color: rgb(255, 255, 255);"><center><B>ABOUT US!</B></center></h1>
- <center><img src="chef.jpg" alt="chef" width="300px;" height="400px;">
+    <div class="c1">
+        <div class="c">
+            <h1 style="color: rgb(255, 255, 255);">
+                <center><B>ABOUT US!</B></center>
+            </h1>
+            <center><img src="chef.jpg" alt="chef" width="300px;" height="400px;">
+        </div>
+        <b>
+            <p>Our chef <br>brings passion and creativity to every dish prepared in the kitchen.
+                With years of culinary experience, they focus on quality and taste.
+                Every meal is crafted using fresh ingredients and careful techniques.
+                The goal is to create a memorable dining experience for every guest.</p>
     </div>
-    <b>
-    <p>Our chef <br>brings passion and creativity to every dish prepared in the kitchen.
-With years of culinary experience, they focus on quality and taste.
-Every meal is crafted using fresh ingredients and careful techniques.
-The goal is to create a memorable dining experience for every guest.</p>
-   </div>
-</div>
-
+    </div>
+   
 
     <footer>
-        
+
         <div>
-    <h3>About Us</h3>
-    <h6>We serve delicious food with quality ingredients and great taste.</h6>
-</div>
+            <h3>About Us</h3>
+            <h6>We serve delicious food with quality ingredients and great taste.</h6>
+        </div>
 
-<search>
-    <h3>Contact</h3>
-    <h6>Nashik, Maharashtra</h6>
-    <h6>Email: restaurant@email.com</h6>
-</section>
-<div>
+        <search>
+            <h3>Contact</h3>
+            <h6>Nashik, Maharashtra</h6>
+            <h6>Email: restaurant@email.com</h6>
+            </section>
+            <div>
 
-   <center><h5>© 2026 Restaurant Name. All Rights Reserved.</h5>
-</div>
-</footer>
+                <center>
+                    <h5>© 2026 Restaurant Name. All Rights Reserved.</h5>
+            </div>
+    </footer>
 </body>
+
 </html>
