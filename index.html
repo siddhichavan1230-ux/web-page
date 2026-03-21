@@ -193,14 +193,20 @@
 
         }
 
+
+
         .v1 {
-            width: 300px;
-            height: 735px;
+            display: flex;
+            flex-direction: column !important;
+            width: 100% !important;
         }
-      
+
+        .v1 * {
+            width: 100% !important;
+        }
+
 
     }
-    
 </style>
 
 <body>
@@ -235,7 +241,7 @@
 
             <video class="v1" src="vi.mp4" autoplay muted loop>pizza</video>
 
-            <img class="v1" src="a.jpg" alt="p" width="600px;" height="400px;">
+            <img class="v1" src="a.jpg" alt="p" >
             <video class="v1" src="q1.mp4" autoplay muted loop>pizza</video>
         </div>
 
@@ -304,7 +310,7 @@
                 The goal is to create a memorable dining experience for every guest.</p>
     </div>
     </div>
-   
+
 
     <footer>
 
