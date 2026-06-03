@@ -27,11 +27,11 @@
 
     .h12 {
         height: 50px;
-        width: 25 px;
+        
         margin: 0 100px;
         border: solid rgb(251, 248, 248);
         text-shadow: 2px 2px 4px #000000;
-        ;
+        
         font-size: 50px;
     }
 
@@ -82,6 +82,7 @@
     }
 
     .navbar {
+        
         background-color: rgb(156, 100, 100);
         
 
@@ -89,6 +90,7 @@
 
     .navbar ul {
         overflow: auto;
+   
     }
 
     .navbar li {
@@ -102,7 +104,7 @@
         padding-bottom: 0;
         margin: 38px;
         text-decoration: none;
-        color: black;
+        color: rgb(0, 0, 0);
         font-size: 17px;
         font-family: Sans-Serif;
         padding-left: 50px;
@@ -231,6 +233,12 @@
             width: 320px;
             height: 180px;
         }
+        img.l2
+        { 
+            width: 340px;
+            height: 230px;
+
+        }
 
 
     }
@@ -265,14 +273,63 @@
     .d2{
         align-content: center;
         filter: drop-shadow(10px 8px 8px black);
+        margin: 20px;
     }
     .it{
         width: 600px; 
          height: 400px;
     }
+    .hev 
+    {
+
+        font-family: "Lucida Console", "Courier New", monospace;
+        margin: 20px;
+        font-size: 15px;
+        color: #ffffff;
+    }
+    .l1
+    {
+        background-color: while;
+    }
+    .l2
+    {
+        width:680px;
+        height: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 20px;
+        filter: drop-shadow(10px 8px 8px black);
+        
+        
+    }
+    .l3
+    {
+        background-color: #00000071;
+    }
+    .b12
+    {
+        background-color: #000000cf;
+    }
+    .b11
+    {
+        color: #ffffff;
+    }
 </style>
 
 <body>
+    <header>
+            <nav class="navbar">
+
+                <a href="Login.html">
+                </a>
+                <ul>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">help</a></li>
+                </ul>
+            </nav>
+        </header>
 
     <div class="hero">
         <h1 class="h12" style="color:white;"><strong>
@@ -287,19 +344,7 @@
             </form>
         </div>
 
-        <header>
-            <nav class="navbar">
-
-                <a href="Login.html">
-                </a>
-                <ul>
-                    <li><a href="Login.html">Login</a></li>
-                    <li><a href="#">contact us</a></li>
-                    <li><a href="#">about us</a></li>
-                    <li><a href="#">help</a></li>
-                </ul>
-            </nav>
-        </header>
+        
         <div class="s1">
             <div class="a1">
 
@@ -375,6 +420,10 @@
     </div>
     </div>
     <div class="d1">
+        <h3 class="size"><center>Our Heaven</center></h3>
+        <p class="hev">Step into a warm and elegant atmosphere designed for comfort, conversation, and unforgettable dining.
+With beautiful interiors, soothing lighting, and a welcoming ambiance, every visit becomes a special experience.
+</p>
     <div class ="d2">
        <center>
          <img src=img/it.jpg alt="retro" class = "it">
@@ -382,23 +431,35 @@
     </div>
     </div>
 
-    <footer>
-
-        <div>
-            <h3>About Us</h3>
-            <h6>We serve delicious food with quality ingredients and great taste.</h6>
+     <div class="l1">
+        <div class="l3">
+        <center>
+            <img src="img/location.png" alt="lo" class="l2">
+            </center>
+            </div>
+            
         </div>
 
-        <search>
+    <footer class="b12">
+
+            <div class="b11">
+            <h3>About Us</h3>
+            <h6>We serve delicious food with quality ingredients and great taste.</h6>
+            </div>
+        
+        <section>
+            <div class="b11">
             <h3>Contact</h3>
             <h6>Nashik, Maharashtra</h6>
             <h6>Email: restaurant@email.com</h6>
             </section>
-            <div>
+        </div>
+            <div class="b11">
 
                 <center>
                     <h5>© 2026 Restaurant Name. All Rights Reserved.</h5>
             </div>
+    
     </footer>
 </body>
 
